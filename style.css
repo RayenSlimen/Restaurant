@@ -1,0 +1,128 @@
+body{
+margin: 0px;
+padding: 0%;
+height: 100%;
+}
+
+.tabbar {
+  display: flex;
+  flex-direction: row;
+  width: 50%; 
+  color: black;
+  text-decoration: none;
+  
+}
+.tabbar__text {
+  margin-left: 40px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-10{
+background-color: rgb(94, 94, 42);
+width: fit-content;
+color: rgb(36, 29, 29);
+padding: 5px;
+}
+.button-10:hover{
+  background-color: bisque;
+  transition: 2s;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: bisque;
+}
+.logo-container {
+  width: 80%;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  width: 70%;
+  margin-left: 30px;
+  text-decoration: none;
+  color: rgb(199, 15, 15);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo-text{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabbar_80 {
+  margin: 30px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.tabbar_80 {
+  margin: 30px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: white; */
+}
+
+.tabbar_70 {
+  color: whitesmoke;
+}
+.container-image {
+  padding-top: 200px;
+
+  background-image: url("210713173338-the-gritti-palace.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.reserve-back{
+  background-color: rgb(233, 233, 220);
+  height: 200%;
+  background-size: cover;
+  
+ 
+
+}
+.tabbar_50{
+  width: 70%;
+  margin-left: 30px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+.button-777{
+  background-color: rgb(172, 172, 4);
+width: fit-content;
+color: rgb(138, 37, 37);
+padding: 5px;
+}
+.button-777{
+  background-color: bisque;
+  transition: 2s;
+}
+input:focus{
+  background: yellow;
+}
+.image{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.iiii{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items:end;
+  gap: 10px;
+
+}
+.menu{
+  background-image:url("restaurant-menu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
